@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.6)
 
 PROJECT (OFFER)
 
-set(CMAKE_CXX_FLAGS "-O0 -ggdb")
+set(CMAKE_CXX_FLAGS "-O0 -ggdb -std=c++11")
 set(CMAKE_CXX_COMPILER "g++")
 
 
@@ -11,3 +11,9 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
 SET(SRC_DIR ../src)
 add_executable(hello ${SRC_DIR}/hello.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(3 ${SRC_DIR}/3.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(4 ${SRC_DIR}/4.cpp)
