@@ -23,3 +23,9 @@ add_executable(5 ${SRC_DIR}/5.cpp)
 
 SET(SRC_DIR ../src)
 add_executable(6 ${SRC_DIR}/6.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(7 ${SRC_DIR}/7.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(8 ${SRC_DIR}/8.cpp)
